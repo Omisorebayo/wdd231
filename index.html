@@ -1,12 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd231
-    </title>
+
+    <meta name="description"
+        content="Explore Kazeem Bayo Omisore's WDD 231 homepage, software development journey, web programming courses, and projects at BYU-Idaho.">
+
+    <meta name="author" content="Kazeem Bayo Omisore">
+
+    <!-- Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript files -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
+    <title>Kazeem Bayo Omisore | WDD 231</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <img src="images/plant-growth.svg" alt="Personal logo" width="40" height="40">
+
+        <span>Kazeem Bayo Omisore</span>
+
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-bar">
+        </button>
+    </header>
+
+    <nav id="nav-bar" class="navigation" aria-label="Main navigation">
+        <ul>
+            <li class="current">
+                <a href="index.html" aria-current="page">Home</a>
+            </li>
+
+            <li>
+                <a href="chamber/index.html">Chamber Project</a>
+            </li>
+
+            <li>
+                <a href="final/index.html">Final Project</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="home-content">
+
+            <section class="about-me">
+                <h2>About Me</h2>
+
+                <p>
+                    My name is <strong>Kazeem Bayo Omisore</strong>, and I'm a Software Development student at BYU-Idaho. I have a background in <em>Materials
+                    Science and Engineering from Obafemi Awolowo University</em>, where I developed strong problem-solving, analytical, and
+                    critical-thinking skills.
+                </p>
+                <p>    
+                    I am passionate about technology, web development, and digital marketing. I enjoy learning how websites are designed and
+                    built, exploring new technologies, and developing practical solutions to real-world problems. My interests include
+                    front-end development, user experience, search engine optimization, and digital communication.
+                </p>
+                <p>
+                    
+                    My goal is to become a skilled <strong>software developer</strong> who can build accessible, responsive, and user-friendly web
+                    applications. I am committed to continuous learning, improving my technical skills, and gaining practical experience
+                    through projects that create meaningful value.
+                </p>
+            </section>
+
+            <section class="student-photo">
+                <h2>Student Photo</h2>
+
+                <img src="images/my-picture.webp" alt="Photo of me" loading="lazy">
+            </section>
+
+        </div>
+
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="course-filters">
+                <button id="allCourses" type="button">All Courses</button>
+
+                <button id="wddCourses" type="button">WDD Courses</button>
+
+                <button id="cseCourses" type="button">CSE Courses</button>
+            </div>
+
+            <p id="creditTotal" aria-live="polite"></p>
+
+            <div id="courseContainer"></div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="social-links">
+            <a href="https://github.com/omisorebayo" target="_blank" rel="noopener noreferrer">
+                <img src="images/github.svg" alt="GitHub" width="32" height="32">
+            </a>
+
+            <a href="https://www.linkedin.com/in/kazeemomisore/" target="_blank" rel="noopener noreferrer">
+                <img src="images/linkedin-circle.svg" alt="LinkedIn" width="32" height="32">
+            </a>
+
+            <a href="https://www.instagram.com/kazeem_omisore/" target="_blank" rel="noopener noreferrer">
+                <img src="images/instagram-circle.svg" alt="Instagram" width="32" height="32">
+            </a>
+        </div>
+
+        <p>
+            &copy; <span id="currentyear"></span>
+            Kazeem Bayo Omisore | Nigeria
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
 </body>
+
 </html>

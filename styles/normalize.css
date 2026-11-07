@@ -1,0 +1,59 @@
+
+
+/* Normalize CSS */
+
+/* Make element sizing predictable */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default body spacing */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Make form elements inherit the page font */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+/* Remove default heading and paragraph top margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+/* Remove default list spacing */
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Make links inherit their surrounding font */
+a {
+    color: inherit;
+}
+
+/* Keep buttons clickable */
+button {
+    cursor: pointer;
+}
+

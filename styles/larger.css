@@ -1,0 +1,64 @@
+/* Tablet Layout */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    header {
+        padding: 1rem 3rem;
+    }
+
+    header span {
+        font-size: 1.4rem;
+    }
+
+    /* Hide Hamburger */
+    .hamburger {
+        display: none;
+    }
+
+    /* Horizontal Navigation */
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navigation a {
+        padding: 1rem 2rem;
+        transition: background-color 0.2s ease;
+    }
+
+    /* Main Content */
+    main {
+        padding: 2rem;
+    }
+
+    main section {
+        padding: 1.5rem;
+    }
+
+    /* About Me and Student Photo Side by Side */
+    .home-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Course Cards */
+    #courseContainer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Desktop Layout */
+@media screen and (min-width: 1000px) {
+
+    header {
+        padding: 1rem max(3rem, calc((100% - 1100px) / 2));
+    }
+
+    /* Course Cards */
+    #courseContainer {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
