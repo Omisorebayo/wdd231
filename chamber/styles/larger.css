@@ -4,10 +4,7 @@
 
 @media screen and (min-width: 38rem) {
 
-    /* =========================
-       Header
-    ========================= */
-
+    /* Header */
     header {
         padding: 1rem 2rem;
         flex-wrap: nowrap;
@@ -18,10 +15,7 @@
         display: none;
     }
 
-    /* =========================
-       Navigation
-    ========================= */
-
+    /* Navigation */
     .navigation {
         display: block;
         width: auto;
@@ -38,26 +32,17 @@
         padding: 0.5rem 0.8rem;
     }
 
-    /* =========================
-       Main Content
-    ========================= */
-
+    /* Main Content */
     main {
         padding: 2rem;
     }
 
-    /* =========================
-       Directory Grid
-    ========================= */
-
+    /* Directory Grid */
     #members.grid-view {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* =========================
-       Wider List View
-    ========================= */
-
+    /* Wider List View */
     #members.list-view .member-card {
         flex-direction: row;
         align-items: center;
@@ -71,10 +56,7 @@
         margin: 0;
     }
 
-    /* =========================
-       Footer
-    ========================= */
-
+    /* Footer */
     footer {
         flex-direction: row;
         justify-content: space-around;
@@ -90,18 +72,12 @@
 
 @media screen and (min-width: 64rem) {
 
-    /* =========================
-       Directory Grid
-    ========================= */
-
+    /* Directory Grid */
     #members.grid-view {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    /* =========================
-       Main Content
-    ========================= */
-
+    /* Main Content */
     main {
         padding: 2.5rem;
     }
