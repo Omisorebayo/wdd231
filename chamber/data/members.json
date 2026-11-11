@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Lagos Tech Solutions",
+        "address": "15 Adeola Odeku Street, Victoria Island, Lagos",
+        "phone": "+234 801 234 5001",
+        "website": "https://example.com",
+        "image": "lagos-tech-solutions.webp",
+        "membershipLevel": 3,
+        "description": "Technology services and digital solutions for businesses."
+    },
+    {
+        "name": "Greenfield Farms",
+        "address": "22 Ikorodu Road, Maryland, Lagos",
+        "phone": "+234 802 345 6002",
+        "website": "https://example.com",
+        "image": "greenfield-farms.webp",
+        "membershipLevel": 2,
+        "description": "Agricultural production and fresh food distribution."
+    },
+    {
+        "name": "Metro Health Clinic",
+        "address": "8 Allen Avenue, Ikeja, Lagos",
+        "phone": "+234 803 456 7003",
+        "website": "https://example.com",
+        "image": "metro-health-clinic.webp",
+        "membershipLevel": 1,
+        "description": "Healthcare and general medical services."
+    },
+    {
+        "name": "Brightstar Properties",
+        "address": "31 Lekki-Epe Expressway, Lekki, Lagos",
+        "phone": "+234 804 567 8004",
+        "website": "https://example.com",
+        "image": "brightstar-properties.webp",
+        "membershipLevel": 3,
+        "description": "Real estate sales, rentals, and property management."
+    },
+    {
+        "name": "Coastal Logistics",
+        "address": "12 Apapa Road, Apapa, Lagos",
+        "phone": "+234 805 678 9005",
+        "website": "https://example.com",
+        "image": "coastal-logistics.webp",
+        "membershipLevel": 2,
+        "description": "Freight, delivery, and logistics services."
+    },
+    {
+        "name": "Urban Bites Restaurant",
+        "address": "5 Bode Thomas Street, Surulere, Lagos",
+        "phone": "+234 806 789 1006",
+        "website": "https://example.com",
+        "image": "urban-bites-restaurant.webp",
+        "membershipLevel": 1,
+        "description": "Restaurant offering local and international meals."
+    },
+    {
+        "name": "Peak Learning Centre",
+        "address": "18 Ogunlana Drive, Surulere, Lagos",
+        "phone": "+234 807 891 2007",
+        "website": "https://example.com",
+        "image": "peak-learning-centre.webp",
+        "membershipLevel": 2,
+        "description": "Educational training and professional development."
+    }
+]

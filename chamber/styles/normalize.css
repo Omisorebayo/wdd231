@@ -1,0 +1,45 @@
+/* CSS Reset / Normalize */
+
+/* Apply consistent box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Improve text rendering */
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Inherit fonts for form elements */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove default link underline */
+a {
+    text-decoration: none;
+}
+
+/* Make buttons show a pointer */
+button {
+    cursor: pointer;
+}

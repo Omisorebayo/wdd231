@@ -1,0 +1,87 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #142d4e;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Prophet Cards Grid */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Individual Prophet Card */
+#cards section {
+    background-color: #ffffff;
+    border: 1px solid #d5dce3;
+    border-top: 5px solid #16866a;
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 10%);
+}
+
+/* Prophet Name */
+#cards h2 {
+    color: #142d4e;
+    font-size: 1.25rem;
+    margin: 0 0 1rem;
+}
+
+/* Prophet Portrait */
+#cards img {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    aspect-ratio: 17 / 22;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    border-radius: 5px;
+}
+
+/* Birth Information */
+#cards p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+    background-color: #142d4e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+footer p {
+    margin: 0;
+}

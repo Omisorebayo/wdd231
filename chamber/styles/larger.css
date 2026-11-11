@@ -1,0 +1,108 @@
+/* =========================
+   Larger Screen Styles
+========================= */
+
+@media screen and (min-width: 38rem) {
+
+    /* =========================
+       Header
+    ========================= */
+
+    header {
+        padding: 1rem 2rem;
+        flex-wrap: nowrap;
+    }
+
+    /* Hide Hamburger Button */
+    .hamburger {
+        display: none;
+    }
+
+    /* =========================
+       Navigation
+    ========================= */
+
+    .navigation {
+        display: block;
+        width: auto;
+    }
+
+    .primaryNav {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 0;
+    }
+
+    .primaryNav a {
+        padding: 0.5rem 0.8rem;
+    }
+
+    /* =========================
+       Main Content
+    ========================= */
+
+    main {
+        padding: 2rem;
+    }
+
+    /* =========================
+       Directory Grid
+    ========================= */
+
+    #members.grid-view {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* =========================
+       Wider List View
+    ========================= */
+
+    #members.list-view .member-card {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 1.5rem;
+    }
+
+    #members.list-view .member-card img {
+        width: 150px;
+        height: 120px;
+        margin: 0;
+    }
+
+    /* =========================
+       Footer
+    ========================= */
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: left;
+        padding: 2rem;
+    }
+}
+
+/* =========================
+   Desktop Screen Styles
+========================= */
+
+@media screen and (min-width: 64rem) {
+
+    /* =========================
+       Directory Grid
+    ========================= */
+
+    #members.grid-view {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* =========================
+       Main Content
+    ========================= */
+
+    main {
+        padding: 2.5rem;
+    }
+}
