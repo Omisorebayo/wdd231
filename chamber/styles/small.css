@@ -10,6 +10,11 @@
     --text-color: #334155;
     --accent-color: #E5B45B;
     --border-color: #D0D0D0;
+
+    /* Additional color variables */
+    --white: #FFFFFF;
+    --active-background: #D8F0E9;
+    --shadow-color: rgba(0, 0, 0, 0.08);
 }
 
 /* =========================
@@ -145,7 +150,7 @@ header {
 
 .view-buttons button.active,
 .view-buttons button:hover {
-    background-color: #D8F0E9;
+    background-color: var(--active-background);
 }
 
 .view-buttons button.active {
@@ -174,7 +179,7 @@ header {
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 5px var(--shadow-color);
 }
 
 .member-card img {
@@ -219,7 +224,7 @@ header {
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white);
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
@@ -228,12 +233,12 @@ footer {
 }
 
 footer h2 {
-    color: white;
+    color: var(--white);
     margin-bottom: 0.5rem;
 }
 
 footer a {
-    color: white;
+    color: var(--white);
     display: inline-block;
     margin: 0.3rem 0;
 }
