@@ -12,7 +12,6 @@
     --border-color: #D0D0D0;
 
     /* Additional color variables */
-    --white: #FFFFFF;
     --active-background: #D8F0E9;
     --shadow-color: rgba(0, 0, 0, 0.08);
 }
@@ -224,7 +223,7 @@ header {
 
 footer {
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--card-color);
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
@@ -233,12 +232,12 @@ footer {
 }
 
 footer h2 {
-    color: var(--white);
+    color: var(--card-color);
     margin-bottom: 0.5rem;
 }
 
 footer a {
-    color: var(--white);
+    color: var(--card-color);
     display: inline-block;
     margin: 0.3rem 0;
 }
