@@ -51,9 +51,7 @@
     }
 
     #members.list-view .member-card img {
-        width: 150px;
-        height: 120px;
-        margin: 0;
+        display: none;
     }
 
     /* Footer */
